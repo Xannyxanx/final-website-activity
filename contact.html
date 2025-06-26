@@ -2,18 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact Us</title>
+    <title>Contact Us | My E-Commerce</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Contact Us</h1>
-    <img src="images/logo.jpg" alt="Sample Image" width="300">
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="product.html">Product</a>
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact Us</a>
-    </nav>
-    <p>This is the Contact Us Page.</p>
+    <header class="navbar">
+        <img src="images/logo.jpg" alt="Logo" class="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="product.html">Products</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html" class="active">Contact Us</a>
+        </nav>
+    </header>
+    <section class="contact-section">
+        <div class="contact-content">
+            <h1>Contact Us</h1>
+            <p>Have questions or need help? Reach out to us!</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p><strong>Email:</strong> puramariano2002@gmail.com</p>
+                <p><strong>Phone:</strong> +639217371281</p>
+                <p><strong>Address:</strong> 1234 Marulas Street, Valenzuela City</p>
+            </div>
+        </div>
+        <img src="images/logo.png" alt="Contact Us" class="contact-img">
+    </section>
+    <footer>
+        <p>&copy; 2025 Mariano F. Pura III | BSIT3</p>  
+    </footer>
 </body>
 </html>
