@@ -2,18 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Home | My E-Commerce</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to Our Website</h1>
-    <img src="images/logo.jpg" alt="Sample Image" width="300">
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="product.html">Product</a>
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact Us</a>
-    </nav>
-    <p>This is the Home Page.</p>
+    <header class="navbar">
+        <img src="images/logo.jpg" alt="Logo" class="logo">
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="product.html">Products</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover Amazing Products</h1>
+            <p>Shop the latest trends and enjoy exclusive deals!</p>
+            <a href="product.html" class="btn">Shop Now</a>
+        </div>
+        <img src="images/hero.webp" alt="Hero Image" class="hero-img">
+    </section>
+    <section class="features">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="images/product1.webp" alt="Product 1">
+                <h3>Omega Flask Green</h3>
+                <p>P799.99</p>
+                <a href="product.html" class="btn-small">View</a>
+            </div>
+            <div class="product-card">
+                <img src="images/product2.webp" alt="Product 2">
+                <h3>PCHOME Blue</h3>
+                <p>P750.00</p>
+                <a href="product.html" class="btn-small">View</a>
+            </div>
+            <div class="product-card">
+                <img src="images/product3.webp" alt="Product 3">
+                <h3>Omega Flask Violet</h3>
+                <p>P799.99</p>
+                <a href="product.html" class="btn-small">View</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Mariano F. Pura III | BSIT3</p>
+    </footer>
 </body>
 </html>
